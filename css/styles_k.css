@@ -37,6 +37,7 @@ h3{
   position: relative;
   top: -50px;
   margin-bottom: -50px;
+  padding: 10px;
 }
 .cards img{
     margin-right: auto;
@@ -67,18 +68,14 @@ span {
 img {
   margin-bottom: 5px !important;
 }
-.w3-button {
-  padding: 10px;
-}
 
-.small__  {
-  font-size: 20px;
-}
+
+
 
 @media screen 
-and (min-width : 320px)
-and (max-width : 480px) {
+and (min-width : 240px)
+and (max-width : 780px) {
      h4  {
-      font-size: 16px;
+      font-size: 15px;
           }
 }
