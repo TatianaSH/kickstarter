@@ -4,9 +4,13 @@
 }
 
 .jumbotron  {
-  background-image: url("../img/east.jpg"); 
-  background-repeat:no-repeat;
-  background-size: cover;
+  background-image: url("../img/pattern.png"); 
+  color: darkblue;
+  padding-top:3px;
+  padding-bottom: 3px;
+}
+.back {
+  background-color: white;
 }
 
 h1, h2, h3 {
@@ -23,7 +27,6 @@ h3{
 }
 .ornam img{
   margin-top: 10px;
-  margin-left: 40px;
 }
 .story{
   margin-top: 30px;
@@ -66,4 +69,16 @@ img {
 }
 .w3-button {
   padding: 10px;
+}
+
+.small__  {
+  font-size: 20px;
+}
+
+@media screen 
+and (min-width : 320px)
+and (max-width : 480px) {
+     h4  {
+      font-size: 16px;
+          }
 }
